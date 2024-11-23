@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* H1 Styles */
+h1 {
+    text-align: center; /* H1 elements are centered */
+    font-size: 2rem;
+}
+
+/* Paragraph Styles */
+p {
+    text-align: center; /* Optional, paragraphs are centered */
+    font-size: 1.2rem;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #4CAF50; /* Default link color */
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: darkgreen; /* Hover effect for links */
+}
+
+/* Image Styles */
+img {
+    display: block; /* Centers the image */
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+/* Unique Background Colors and Text Colors */
+body.index {
+    background-color: #f0f8ff; /* Light blue */
+    color: navy; /* Navy text */
+}
+
+body.joke1 {
+    background-color: #fffacd; /* Lemon chiffon */
+    color: darkred; /* Dark red text */
+}
+
+body.joke2 {
+    background-color: #e6e6fa; /* Lavender */
+    color: darkblue; /* Dark blue text */
+}
+
+body.joke3 {
+    background-color: #ffe4e1; /* Misty rose */
+    color: darkgreen; /* Dark green text */
+}
